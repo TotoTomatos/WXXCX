@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/index",
+    "pages/category/index",
+    "pages/my/index"  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF5700",
+    "navigationBarTitleText": "java1234商城",
+    "navigationBarTextStyle": "white"
+    },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FF5700",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/_home.png",
+      "selectedIconPath": "icons/home.png"
+    },{
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icons/_cart.png",
+      "selectedIconPath": "icons/cart.png"
+    },{
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "icons/_category.png",
+      "selectedIconPath": "icons/category.png"
+    },{
+      "pagePath": "pages/my/index",
+      "text": "首页",
+      "iconPath": "icons/_my.png",
+      "selectedIconPath": "icons/my.png"
+    }]
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
